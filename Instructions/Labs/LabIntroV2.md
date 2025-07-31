@@ -100,8 +100,7 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 1. If an **Action required** pop-up window appears, click on **Ask later**.
 
    ![Ask Later](../images/afg9.png)
-    
-1. If prompted to stay signed in, you can click **No**.
+  
  
 ### Steps to Proceed with MFA Setup if the "Ask Later" Option is Not Visible
 
@@ -129,7 +128,7 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 
 1. Enter the digit displayed on the Screen in the Authenticator app on your mobile and tap on **Yes**.
 
-1. Once the notification is approved, click on **Next**.
+1. Once the notification is approved, click on **Next (1)**.
 
    ![Approved](../images/dpg14.png)
 
@@ -144,20 +143,6 @@ To adjust the zoom level for the environment page, click the **A↕** icon locat
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
 
 1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
-5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "**Cancel**" to skip the tour.
-
-    ![Enter Your Password](../images/2507.png)
-
-
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
-6. Click "Next" from the bottom right corner to embark on your Lab journey!
-
-      ![Start Your Azure Journey](../images/num.png)
-
-
-This hands-on lab will guide you through implementing end-to-end DevOps practices using Azure DevOps and GitHub. You will deploy an Azure web app with GitHub Actions, set up CI/CD automation with YAML pipelines, and configure release gates based on app health. Additionally, you will integrate the Mend Bolt extension to detect open-source vulnerabilities, ensuring security and compliance in your pipeline.
 
 ### Support Contact
 
