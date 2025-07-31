@@ -1,10 +1,12 @@
 # Getting Started with Your DP-300: Azure Database Administrator Associate
- 
+
+### Overview
+
 Welcome to your DP-300: Azure Database Administrator Associate workshop! You'll learn to manage and implement Azure SQL Database and Azure SQL Managed Instance, focusing on deployment, security, performance optimization, and high availability on Azure. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
-Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
 ![Access Your VM and Lab Guide](../images/253.png)
 
@@ -14,7 +16,7 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 ## Exploring Your Lab Resources
  
-To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** details tab.
  
 ![Explore Lab Resources](../images/262.png)
 
@@ -26,12 +28,91 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **start, stop, or restart(2)** your virtual machine as needed from the **Resources(1)** tab. Your experience is in your hands!
  
-  ![Manage Your Virtual Machine](../images/264.png)
+![Manage Your Virtual Machine](../images/256.png)
+
+ ## Lab Guide Zoom In/Zoom Out
+
+To adjust the zoom level for the environment page, click the **A↕** icon located next to the timer in the lab environment.
+
+![ZoominZoomout](../images/255.png)
+
+## Let's Get Started with Azure Portal
  
-Click "Next" from the bottom right corner to embark on your Lab journey!
+1. On your virtual machine, click on the **Azure Portal** icon as shown below:
  
-   ![Start Your Azure Journey](../images/num.png)
+    ![Launch Azure Portal](../images/259.png)
+
+1. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+ 
+    ![Enter Your Username](../images/user.png)
+ 
+1. Next, provide your password:
+ 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+   ![Enter Your Password](../images/user1.png)
+
+1. If you see the pop-up **Stay Signed in?**, click **No**.     
+
+1. If an **Action required** pop-up window appears, click on **Ask later**.
+
+   ![Ask Later](../images/afg9.png)
+    
+
+ 
+### Steps to Proceed with MFA Setup if the "Ask Later" Option is Not Visible
+
+1. If you see the pop-up **Stay Signed in?**, click **No**.
+
+1. If **Action required** pop-up window appears, click on **Next**.
+   
+   ![](../images/dpg11.png)
+
+1. On **Start by getting the app** page, click on **Next**.
+1. Click on **Next** twice.
+1. In **android**, go to the play store and Search for **Microsoft Authenticator** and Tap on **Install**.
+
+   ![Install](../images/dpg12.png)
+
+   > Note: For iOS, open the App Store and repeat the steps.
+
+   > Note: Skip if already installed.
+
+1. Open the app and tap on **Scan a QR code**.
+
+1. Scan the QR code visible on the screen **(1)** and click on **Next (2)**.
+
+   ![QR code](../images/dpg13.png)
+
+1. Enter the digit displayed on the Screen in the Authenticator app on your mobile and tap on **Yes**.
+
+1. Once the notification is approved, click on **Next (1)**.
+
+   ![Approved](../images/dpg14.png)
+
+1. Click on **Done**.
+
+1. If prompted to stay signed in, you can click **"No"**.
+
+1. Tap on **Finish** in the Mobile Device.
+
+   > NOTE: While logging in again, enter the digits displayed on the screen in the **Authenticator app** and click on Yes.
+
+1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
+
+1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
+
+### Support Contact
+
+The CloudLabs support team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance anytime. We offer dedicated support channels tailored specifically for learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+- Email Support: cloudlabs-support@spektrasystems.com
+- Live Chat Support: https://cloudlabs.ai/labs-support
  
 Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
